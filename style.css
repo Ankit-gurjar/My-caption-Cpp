@@ -1,0 +1,98 @@
+Home Section
+
+#home{
+	display: flex;
+	flex-direction: column;
+	padding:3px 200px;
+
+	justify-content: center;
+	align-items: center;
+	}
+
+#home::before{
+	content:"";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	opacity: 0.9;
+	}
+#p1{
+	color:lightgrey;
+	text-align: center;
+	padding: 20px;
+	font-size:2.5rem;
+	}
+
+#p2{
+	font-size:2rem;
+	color:white;
+	text-align: left;
+	padding: 183px;
+	}
+#p3{
+	font-size: 25px;
+	color:white;
+	text-decoration:none;
+	}
+
+#p4{
+	font-size:2.5rem;
+	color:#b1a2a2;
+	text-align: center;
+	padding: 98px;
+	}
+
+
+Know More Button
+
+	#h1 h-primary{
+		font-size: 2.8rem;
+		padding: 12px;
+		}
+
+	#h1 h-secondary{
+		font-size: 2.8rem;
+		padding: 12px;
+		}
+	.btn{
+		padding: 1px 5px;
+		border: 2px solid white;
+		color: sold black;
+		margin:5px;
+		font-size: 1rem;
+		border-radius: 10px;
+		background-color: lightblue;
+		cursor:pointer;
+		}
+
+services section
+#services{
+	margin:50px;
+	display:flex;
+	}
+#services .box{
+	border: 2px solid black;
+	padding: 10px 10px;
+	}
+#services .box img{
+	height: 30px;
+	}
+
+
+		.bottom{
+			color:#b19d9d;
+			font-size:15px;
+			position: absolute;
+			right:20px;
+			display: inline-block;
+			border: 0px solid red;
+			}
+		.mid{
+			color:#b19d9d;
+			font-size:15px;
+			position: absolute;
+			left:20px;
+			display: inline-block;
+			border: 0px solid red;
+			}
